@@ -11,7 +11,14 @@ Lisez `avec attention` et faites les points suivants avec précision, dans l'ord
 ## QUESTIONS :
 Veuillez répondre aux questions ci-dessous dans le fichier [REPONSES.md](REPONSES.md) :
 1. Peut-on modifier l'âge d'un chien une fois qu'il a été créé (essayez de donner 10 ans à chien3 pour vérifier) ? 
+oui
+
 2. Que se passe-t-il si on modifie le nom de chien2 ?
+ça le donne aussi à chien 1 et 3
+
 3. Pourquoi tous les chiens ont tous le même nom ?
+le champ nom est static
+
 4. Observez avec attention les lignes N°20 à N°26 du main() et réfléchissez : par quel miracle le chien3 à la ligne N°26 s'affiche correctement ?
    Répondez à cette question en expliquant avec précision ce qui se passe et pourquoi.
+champ static nom qui affich celui du dernier chien instancié
